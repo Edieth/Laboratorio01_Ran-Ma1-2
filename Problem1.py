@@ -4,6 +4,9 @@ locale.setlocale(locale.LC_ALL, "es")
 from Productos import Productos
 import sys
 Prod= Productos
+
+Vector:[]
+
 num = 0
 def salir():
     print("¿Desea comprar un producto más?")
@@ -24,8 +27,8 @@ while num != 5 :
         opc = int(input("¿Cuál bebida fría desea llevar?"))
 
         if opc == 1:
-            for i, contar in enumerate(Prod.Affogato)
-            print(Prod.Affogato)
+            print(Prod.Affogato["Ingredientes"])
+            print(Prod.Affogato["Precio"])
             salir()
         elif opc == 2:
             print(Prod.Hielo)
